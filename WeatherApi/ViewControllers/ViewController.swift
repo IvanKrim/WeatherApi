@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet var weatherIconImageView: UIImageView!
     @IBOutlet var cityLabel: UILabel!
     @IBOutlet var temperatureLabel: UILabel!
@@ -22,7 +21,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         networkWeatherManager.fetchCurrentWeather(for: "Voronezh")
-        
         
         
     }

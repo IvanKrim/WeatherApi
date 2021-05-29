@@ -13,7 +13,7 @@ extension ViewController {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: style)
         alertController.addTextField { textField in
             let cities = ["San Francisco", "Moscow", "New York", "Stambul", "Viena"]
-            // пелйсхолдер для поисковика
+            // плейсхолдер для поисковика
             textField.placeholder = cities.randomElement()
         }
         // кнопка serach в алертконтроллере
