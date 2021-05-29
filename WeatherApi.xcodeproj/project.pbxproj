@@ -56,15 +56,47 @@
 		0E467A3A266285C300448EAB /* WeatherApi */ = {
 			isa = PBXGroup;
 			children = (
-				0E467A3B266285C300448EAB /* AppDelegate.swift */,
-				0E467A3D266285C300448EAB /* SceneDelegate.swift */,
-				0E467A3F266285C300448EAB /* ViewController.swift */,
-				0E467A41266285C300448EAB /* Main.storyboard */,
-				0E467A44266285C600448EAB /* Assets.xcassets */,
-				0E467A46266285C600448EAB /* LaunchScreen.storyboard */,
-				0E467A49266285C600448EAB /* Info.plist */,
+				0E467A5226628A8200448EAB /* Model */,
+				0E467A5026628A2300448EAB /* ViewControllers */,
+				0E467A4F26628A1300448EAB /* Stroyboards */,
+				0E467A5126628A4800448EAB /* Supporting */,
 			);
 			path = WeatherApi;
+			sourceTree = "<group>";
+		};
+		0E467A4F26628A1300448EAB /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0E467A41266285C300448EAB /* Main.storyboard */,
+				0E467A46266285C600448EAB /* LaunchScreen.storyboard */,
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		0E467A5026628A2300448EAB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E467A3F266285C300448EAB /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0E467A5126628A4800448EAB /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				0E467A3B266285C300448EAB /* AppDelegate.swift */,
+				0E467A3D266285C300448EAB /* SceneDelegate.swift */,
+				0E467A49266285C600448EAB /* Info.plist */,
+				0E467A44266285C600448EAB /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		0E467A5226628A8200448EAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3S8MU2XD5;
-				INFOPLIST_FILE = WeatherApi/Info.plist;
+				INFOPLIST_FILE = WeatherApi/supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3S8MU2XD5;
-				INFOPLIST_FILE = WeatherApi/Info.plist;
+				INFOPLIST_FILE = WeatherApi/supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
