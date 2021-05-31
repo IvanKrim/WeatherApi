@@ -12,7 +12,7 @@ extension ViewController {
         // completionHandler: (String) -> Void) кложер который позволяет передавать название города
         let alertController = UIAlertController(title: title, message: message, preferredStyle: style)
         alertController.addTextField { textField in
-            let cities = ["San Francisco", "Moscow", "New York", "Stambul", "Viena"]
+            let cities = ["San Francisco", "Moscow", "New York", "Istambul", "Viena"]
             // плейсхолдер для поисковика
             textField.placeholder = cities.randomElement()
         }
